@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffcc80;
+  font-family: "Birthstone", cursive;
+  font-size: 3rem;
+  background-color: #ffcc80;
+}
+
+nav>img {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.containerKebab {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerCommand {
+  max-width: 2px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .box {
+  width: 540px;
+  margin: 50px;
+  display: table;
+}
+
+.container .box .box-row {
+  display: table-row;
+}
+
+.container .box .box-cell {
+  display: table-cell;
+  width: 33%;
+  padding: 10px;
+}
+
+.container .box .box-cell.box1 {
+  color: white;
+  text-align: justify;
+}
+
+.container .box .box-cell.box2 {
+  text-align: justify
+}
